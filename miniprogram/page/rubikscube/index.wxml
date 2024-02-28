@@ -1,6 +1,6 @@
 <xr-demo-viewer
-  title="AR 相机渲染案例"
-  intro="AR相机与glTF一同渲染的基础案例"
+  title="AR还原魔方"
+  intro="AR还原魔方"
   code="{{xmlCode}}"
 >
   <xr-ar-camera

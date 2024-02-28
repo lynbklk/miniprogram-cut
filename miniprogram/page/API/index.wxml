@@ -1,11 +1,7 @@
-<mp-navigation-bar title="小程序接口能力展示" back="{{false}}"></mp-navigation-bar>
+<mp-navigation-bar title="AR探索" back="{{false}}"></mp-navigation-bar>
 <scroll-view class="page-scroll-view" scroll-y type="list">
 <set-tab-bar wx:if="{{isSetTabBarPage}}" bindunmount="leaveSetTabBarPage"></set-tab-bar>
 <view wx:else class="index page" data-weui-theme="{{theme}}">
-  <view class="index-hd">
-    <image class="index-logo" src="resources/kind/logo.png"></image>
-    <text class="index-desc">以下将演示小程序接口能力，具体属性参数详见 <text class="weui-agree__link" bindtap="navToDoc">小程序开发文档</text>。</text>
-  </view>
   <view class="index-bd">
     <view class="kind-list">
       <block wx:for-items="{{list}}" wx:key="{{item.id}}">

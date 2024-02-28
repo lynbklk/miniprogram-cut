@@ -1,5 +1,5 @@
-var sceneReadyBehavior = require('../../packageXRFrame/pages/behavior-scene/scene-ready');
-var handleDecodedXML = require('../../packageXRFrame/pages/behavior-scene/util').handleDecodedXML;
+var sceneReadyBehavior = require('../../packageRubikscube/pages/behavior-scene/scene-ready');
+var handleDecodedXML = require('../../packageRubikscube/pages/behavior-scene/util').handleDecodedXML;
 var xmlCode = `&lt;xr-scene id=&quot;xr-scene&quot; ar-system=&quot;modes:Marker&quot; bind:ready=&quot;handleReady&quot; bind:tick=&quot;handleTick&quot; bind:log=&quot;handleLog&quot;&gt;
 &lt;xr-assets bind:progress=&quot;handleAssetsProgress&quot; bind:loaded=&quot;handleAssetsLoaded&quot;&gt;
   &lt;xr-asset-load type=&quot;env-data&quot; asset-id=&quot;env1&quot; src=&quot;https://mmbizwxaminiprogram-1258344707.cos.ap-guangzhou.myqcloud.com/xr-frame/demo/env-footprint/data.json&quot; /&gt;

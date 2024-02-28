@@ -1,7 +1,7 @@
 {
   "usingComponents": {
-    "xr-demo-viewer": "../../packageXRFrame/components/xr-demo-viewer/index",
-    "xr-ar-camera": "../../packageXRFrame/components/xr-ar-camera/index"
+    "xr-demo-viewer": "../../packageRubikscube/components/xr-demo-viewer/index",
+    "xr-ar-camera": "../../packageRubikscube/components/xr-ar-camera/index"
   },
   "disableScroll": true,
   "renderer": "webview"
