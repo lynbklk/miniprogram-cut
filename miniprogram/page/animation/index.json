@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "AR魔方",
+  "componentFramework": "glass-easel",
+  "renderer": "skyline",
+  "disableScroll": true,
+  "navigationStyle": "custom"
+}

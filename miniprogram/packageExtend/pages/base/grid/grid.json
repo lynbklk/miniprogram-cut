@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "mp-grids": "../../../components/grids/grids"
+  },
+  "renderer": "webview",
+"navigationBarTitleText": "grid"
+
+}

@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "mp-loading": "weui-miniprogram/loading/loading"
+    },
+    "renderer": "webview",
+"navigationBarTitleText": "loading"
+
+}

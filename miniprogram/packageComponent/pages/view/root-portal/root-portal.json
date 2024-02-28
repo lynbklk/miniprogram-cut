@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+      "popup": "../../../../components/popup/index"
+    },
+    "navigationBarTitleText": "root-portal",
+    "renderer": "webview"
+  }

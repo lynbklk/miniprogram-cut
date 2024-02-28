@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "mp-gallery": "weui-miniprogram/gallery/gallery"
+  },
+  "renderer": "webview",
+"navigationBarTitleText": "gallery"
+
+}
